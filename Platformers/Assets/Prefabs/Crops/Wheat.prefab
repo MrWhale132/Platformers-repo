@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3305952130639323296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3305952130639323298}
+  - component: {fileID: 2928149234690039128}
+  - component: {fileID: 3305952130639323301}
+  - component: {fileID: 3744663407647362364}
+  m_Layer: 9
+  m_Name: Wheat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3305952130639323298
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3305952130639323296}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2928149234690039128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3305952130639323296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3260412fafddf84f8522589413c33f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  harvestQuantity: 2
+  growTime: 10
+  growSpeed: 1
+  numberOfSeeds: 100
+  seedRadius: 3
+  seedSquareSideLength: 5
+  seedPrefab: {fileID: 6850948103375547162, guid: c79acacfcd7b5ec46bf6989d210b8c14,
+    type: 3}
+  stateInfoBoxprefab: {fileID: 4601764444429436329, guid: 47b9b244e3a55d84ca42d980c9c91959,
+    type: 3}
+--- !u!114 &3305952130639323301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3305952130639323296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 965fe5c801b781245a9ff8d9fe6921a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &3744663407647362364
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3305952130639323296}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.5, y: 1, z: 4.5}
+  m_Center: {x: 0, y: 0.5, z: 0}
